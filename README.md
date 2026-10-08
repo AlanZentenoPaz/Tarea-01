@@ -308,7 +308,7 @@ Todos son variables `@export`, editables en el Inspector sin tocar el código.
 | Recurso | Autor | Licencia | Fuente |
 |---|---|---|---|
 | `hunk.glb` | Vasian-Digital3D | CC-BY-4.0 (requiere atribución) | [Sketchfab](https://sketchfab.com/3d-models/hunk-d891456f51a7431cafeac3137351cfc0) |
-| `low_poly_street_gameready_6.glb` | dasy444 | Sketchfab Standard (revisar términos antes de redistribuir) | [Sketchfab](https://sketchfab.com/3d-models/low-poly-street-gameready-6-8070aa74a8724379aaf70008fa33bd6d) |
+| `low_poly_street_gameready_6.glb` | dasy444 | Sketchfab Standard | [Sketchfab](https://sketchfab.com/3d-models/low-poly-street-gameready-6-8070aa74a8724379aaf70008fa33bd6d) |
 | `textures/*.png` | Recortes del atlas del escenario | La del escenario | — |
 
 No se generó un personaje con Tripo o Meshy: se usó un recurso de práctica externo, declarado en `Prompts/BITACORA.md`.
