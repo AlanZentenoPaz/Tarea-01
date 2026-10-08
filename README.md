@@ -13,7 +13,7 @@ está pensado para entender, y poder explicar, **cómo se separan el movimiento,
 | **Escena principal** | `scenes/Main.tscn` |
 | **Complementos de terceros** | Ninguno |
 | **Reporte (PDF)** | `docs/Tarea1_Reporte.pdf` |
-| **Video de demostración** | _[pega aquí el enlace]_ |
+| **Video de demostración** | (https://drive.google.com/file/d/1NU_o8MFLmxKDkOe4eb_czuQ9ZIR6If34/view?usp=sharing ) |
 
 ---
 
