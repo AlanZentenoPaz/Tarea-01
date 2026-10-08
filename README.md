@@ -255,9 +255,7 @@ lo que evita que el personaje se atasque en cada escalón sin necesidad de lógi
 | 4 | Dos límites de render | Parado en zona libre: `F6` (144 FPS) → `F5`; después `F6` (30 FPS) → `F5` | Misma distancia en ambos casos; cambian los cuadros de render |
 | 5 | Copia limpia | Copiar la carpeta, abrirla en Godot y revisar la consola | Sin archivos faltantes; modelo, materiales y escala correctos |
 
-**Valor teórico de la prueba 4.** El personaje camina a 5 m/s durante 3 s físicos (180 ticks), menos ≈ 0.28 m del tramo de aceleración
-(5 / 45 s a 45 m/s²): **≈ 14.7 m** en terreno libre. Con 30 FPS se dibujan ≈ 90 cuadros y con 144 FPS ≈ 432, pero el desplazamiento
-no cambia porque la física avanza por ticks y no por cuadros.
+**Valor teórico de la prueba 4.** el personaje camina 420 ticks (7 s físicos) y el HUD reporta distancia, ticks, cuadros y tiempo real. La distancia debe ser casi idéntica con 30 y 144 FPS (teórico: 5 m/s × 3 s menos ≈ 0.28 m de aceleración, ≈ 14.7 m en terreno libre); cambian los cuadros dibujados (≈ 210 contra ≈ 1008), no el desplazamiento.
 
 ---
 
