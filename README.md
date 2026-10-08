@@ -299,9 +299,7 @@ Todos son variables `@export`, editables en el Inspector sin tocar el código.
 
 ## 7. Limitaciones conocidas
 
-- **El proyecto se generó sin poder ejecutarlo en el editor de Godot.** Los scripts y las escenas se revisaron manualmente y los modelos se
-  midieron fuera del motor; si algo no funciona al abrirlo, el mensaje de la consola indica el archivo y la línea.
-- La pose procedural es una aproximación: en los hombros (T-pose bajada 68°) puede haber cierta deformación de la chaqueta.
+- **La pose procedural es una aproximación: en los hombros (T-pose bajada 68°) puede haber cierta deformación de la chaqueta.
   Ajustar `arm_down_degrees` suele bastar; la solución completa son clips de animación (Tarea 2).
 - Las escaleras usan una rampa de colisión simple: el pie puede quedar ligeramente por encima o por debajo (≈ 0.1 m) de la huella visual.
 - Las animaciones incluidas en `hunk.glb` (“Motion”) no se usan en esta entrega.
@@ -317,7 +315,3 @@ Todos son variables `@export`, editables en el Inspector sin tocar el código.
 
 No se generó un personaje con Tripo o Meshy: se usó un recurso de práctica externo, declarado en `Prompts/BITACORA.md`.
 La revisión de escala, orientación, esqueleto y materiales está en `docs/FICHA_MODELOS.md`.
-
-**Regenerar el reporte en PDF.** `docs/reporte/build.py` genera `Tarea1_Reporte.pdf` con ReportLab. Para insertar las capturas
-automáticamente, guárdalas como `capturas/captura1.png`, `captura2.png` y `captura3.png` junto al script y completa los datos
-del encabezado del archivo (nombre, curso, enlaces).
