@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/hunk_visual.gd" id="e1"]
+[ext_resource type="PackedScene" path="res://models/hunk.glb" id="e2"]
+
+[node name="HunkModel" type="Node3D"]
+script = ExtResource("e1")
+
+[node name="Model" parent="." instance=ExtResource("e2")]
+transform = Transform3D(-0.575, 0, 0, 0, 0.575, 0, 0, 0, -0.575, 0, 0, 0)
+

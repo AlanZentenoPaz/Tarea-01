@@ -1,0 +1,14 @@
+[gd_scene load_steps=4 format=3]
+
+[ext_resource type="PackedScene" path="res://scenes/Level.tscn" id="e1"]
+[ext_resource type="PackedScene" path="res://scenes/Player.tscn" id="e2"]
+[ext_resource type="PackedScene" path="res://scenes/HUD.tscn" id="e3"]
+
+[node name="Main" type="Node3D"]
+
+[node name="Level" parent="." instance=ExtResource("e1")]
+
+[node name="Player" parent="." instance=ExtResource("e2")]
+
+[node name="HUD" parent="." instance=ExtResource("e3")]
+
