@@ -299,7 +299,7 @@ Todos son variables `@export`, editables en el Inspector sin tocar el código.
 
 ## 7. Limitaciones conocidas
 
-- **La pose procedural es una aproximación: en los hombros (T-pose bajada 68°) puede haber cierta deformación de la chaqueta.
+- La pose procedural es una aproximación: en los hombros (T-pose bajada 68°) puede haber cierta deformación de la chaqueta.
   Ajustar `arm_down_degrees` suele bastar; la solución completa son clips de animación (Tarea 2).
 - Las escaleras usan una rampa de colisión simple: el pie puede quedar ligeramente por encima o por debajo (≈ 0.1 m) de la huella visual.
 - Las animaciones incluidas en `hunk.glb` (“Motion”) no se usan en esta entrega.
